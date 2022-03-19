@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (c) 2014-2015 Josh Wahome (https://github.com/mdichirico)
+# Copyright (c) 2014-2015 Josh Wahome (https://github.com/joshking1)
 # This software/script is released under the terms of the MIT license (http://en.wikipedia.org/wiki/MIT_License).
 #
 # I wrote this shell script to use Jenkins with a LAMP stack environment. 
@@ -81,8 +81,8 @@ sudo yum install -y curl
 # Jenkins on CentOS requires Java, but it won't work with the default (GCJ) version of Java. So, let's remove it:
 sudo yum remove -y java
 
-# install the OpenJDK version of Java 7:
-sudo yum install -y java-1.7.0-openjdk
+# install the OpenJDK version of Java 8:
+sudo yum install -y java-1.8.0-openjdk
 
 # Jenkins uses 'ant' so let's make sure it is installed:
 sudo yum install -y ant
