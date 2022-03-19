@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (c) 2014-2015 Michael Dichirico (https://github.com/mdichirico)
+# Copyright (c) 2014-2015 Josh Wahome (https://github.com/mdichirico)
 # This software/script is released under the terms of the MIT license (http://en.wikipedia.org/wiki/MIT_License).
 #
 # I wrote this shell script to use Jenkins with a LAMP stack environment. 
